@@ -1,4 +1,6 @@
 
+document.write ('WELCOME ');
+
 var Q = prompt ( 'do you like fruit salad y/n');
 
 if (Q == 'y'){alert ('GREAT !!')}
@@ -10,7 +12,6 @@ else   {alert ('welcome ')}
 
 
 var userName = prompt ('type your name please ','name');
-Document.write ('WELCOME ');
-alert  ( 'Im happy to help you') ;
 
+alert  ( 'Im happy to help you') ;
 
