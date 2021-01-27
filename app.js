@@ -10,7 +10,7 @@ else   {alert ('welcome ')}
 
 
 var userName = prompt ('type your name please ','name');
-Document.write ('WELCOME ' + userName);
+Document.write ('WELCOME ');
 alert  ( 'Im happy to help you') ;
 
-alert ( ' <img src = "https://e7.pngegg.com/pngimages/891/663/png-clipart-blushing-emoji-emoticon-smiley-emoji-face-embarrassment.png">');
+
