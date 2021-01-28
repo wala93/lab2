@@ -20,7 +20,7 @@ while (!(choose== 'n' || choose =='c'))
 { choose = prompt('please enter n or c')} ;
 
 
-alert  ( 'Im happy to help you') ;
+alert  ( 'Im happy to help you' + userName) ;
 
 var rateUs = prompt('please rate us between 1-5 ','5');
 
