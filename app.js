@@ -28,7 +28,7 @@ if (rateUs > 0 && rateUs<= 5){ for (i=0 ; i < rateUs ; i++)
     {
     document.write ('<img width =50 lenghth =50  src=  https://webstockreview.net/images/star-clip-art-cute-15.png > ') }
 } 
-else alert ( 'we  hope rate us at next time :') ;
+else alert ( 'we  hope you rate us at next time :') ;
 
 
 
