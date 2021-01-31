@@ -1,9 +1,17 @@
-var userName = prompt ('type your name please ','name');
-
-document.write ('WELCOME ' + userName);
 
 
-document.write('<img  width = 100 , lenghth= 100 src ="https://e7.pngegg.com/pngimages/891/663/png-clipart-blushing-emoji-emoticon-smiley-emoji-face-embarrassment.png">');
+var userName ="    "
+function greeting (){
+ userName = prompt ('type your name please ','name');
+
+document.write ('WELCOME ' + userName); 
+
+document.write('<img  width = 100 , lenghth= 100 src ="https://e7.pngegg.com/pngimages/891/663/png-clipart-blushing-emoji-emoticon-smiley-emoji-face-embarrassment.png">');}
+
+greeting ( userName) ;
+
+
+
 
 
 var Q = prompt ( 'do you like fruit salad y/n');
@@ -14,11 +22,12 @@ else if (Q== 'n'){ alert ('i invit you to try it ')}
 
 else { alert('you are in right place')} ;
 
-
+function mustAnswer () {
 var choose = prompt ( 'what do you prefer normal or whith cream ','n/c' ) ;
 while (!(choose== 'n' || choose =='c'))
-{ choose = prompt('please enter n or c')} ;
-
+{ choose = prompt('please enter n or c')}
+ } ;
+mustAnswer ();
 
 alert  ( 'Im happy to help you' +  userName ) ;
 
