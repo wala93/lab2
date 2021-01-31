@@ -1,0 +1,12 @@
+body {background-color: rgb(191, 223, 223)}
+
+header nav h1 { color :rgb(61, 9, 75); font-size: xx-large ;text-align: center;}
+
+#p1 { font-size: medium;color: mediumpurple; margin-left: 20px;float:top}
+
+
+#a1 {float: right; text-decoration: none; background-color: lightblue;margin-top: 50px}
+
+#endlist  { background-color: darkgrey; text decoratin : nono ;color :rgb(9, 38, 75)}
+.o {color :darkblue;background-color:  rosybrown ;display: inline;}
+
